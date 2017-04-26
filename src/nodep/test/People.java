@@ -1,9 +1,9 @@
-package test;
+package nodep.test;
 
 /**
- * Created by Smith on 2017/4/25.
+ * Created by Smith on 2017/4/26.
  */
-public class People {
+public class People implements PeopleInterface {
     public void eat() {
         System.out.println("eating ...");
     }

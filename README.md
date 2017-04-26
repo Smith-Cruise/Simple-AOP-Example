@@ -1,6 +1,9 @@
-# CGLIB-AOP-Example
-本项目通过`cglib`实现了一个简单的AOP  
-**因为使用了cglib，所以类无需继承接口**
+# JAVA-AOP-SIMPLE-EXAMPLE
+本例子分别用了jdk动态代理和cglib实现了简单的AOP，仅供参考  
+* src
+  * `cglib`使用cglib实现
+  * `nodep`不使用任何第三方库，使用jdk自带的代理
+  
+目录中的`test`为测试文件
 ***
-### 注意
-我的示例代码位于`test`目录中  
+

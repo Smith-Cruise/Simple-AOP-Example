@@ -1,13 +1,13 @@
-package test;
+package nodep.test;
 
-import annotation.Aspect;
-import proxy.MainProxy;
+import nodep.annotation.Aspect;
+import nodep.proxy.MainProxy;
 
 /**
- * Created by Smith on 2017/4/25.
+ * Created by Smith on 2017/4/26.
  */
 @Aspect(People.class)
-public class FirstProxy extends MainProxy {
+public class NoDepProxy extends MainProxy {
     @Override
     public void before() {
         System.out.println("before");

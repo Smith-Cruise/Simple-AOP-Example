@@ -1,10 +1,10 @@
-package proxy;
+package cglib.proxy;
 
 /**
  * Created by Smith on 2017/4/25.
  */
 public interface Proxy {
-    public void before();
+    void before();
 
-    public void after();
+    void after();
 }

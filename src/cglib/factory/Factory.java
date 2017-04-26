@@ -1,8 +1,8 @@
-package factory;
+package cglib.factory;
 
-import annotation.Aspect;
+import cglib.annotation.Aspect;
 import net.sf.cglib.proxy.Enhancer;
-import proxy.MainProxy;
+import cglib.proxy.MainProxy;
 
 /**
  * Created by Smith on 2017/4/25.
